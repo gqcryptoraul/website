@@ -26,7 +26,7 @@ I'll endeavour to reply to you shortly.
 Below you'll find a copy of your message.
 
 Greetings!
-Andrea Carraro
+Raúl González
 
 ------+------
 ${message}
