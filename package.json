@@ -1,9 +1,9 @@
 {
-  "name": "andreacarraro.it",
+  "name": "raulgonzalez.vercel.app",
   "description": "Personal website 2015",
   "author": "Raúl González",
   "repository": "https://github.com/toomuchdesign/website.git",
-  "homepage": "http://www.andreacarraro.it",
+  "homepage": "http://www.raulgonzalez.vercel.app",
   "version": "1.0.0",
   "scripts": {
     "start": "netlify dev",

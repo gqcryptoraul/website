@@ -31,7 +31,7 @@ Raúl González
 ------+------
 ${message}
 ------+------
-andreacarraro.it | ${senderEmail}`;
+raulgonzalez.vercel.app | ${senderEmail}`;
 }
 
 exports.handler = function(event, context, callback) {
@@ -61,7 +61,7 @@ exports.handler = function(event, context, callback) {
   const emailToUser = sendEmail({
     to: data.email,
     replyTo: SENDER_EMAIL,
-    subject: 'andreacarraro.it: message received!',
+    subject: 'raulgonzalez.vercel.app: message received!',
     text: replyMessageTemplate({
       name: data.name,
       message: data.message,
@@ -72,7 +72,7 @@ exports.handler = function(event, context, callback) {
   const emailToAdmin = sendEmail({
     to: SENDER_EMAIL,
     replyTo: data.email,
-    subject: 'Message sent from andreacarraro.it',
+    subject: 'Message sent from raulgonzalez.vercel.app',
     text: data.message,
   });
 
